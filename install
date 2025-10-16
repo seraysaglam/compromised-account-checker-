@@ -1,0 +1,6 @@
+git clone https://github.com/<kullanici>/mikro-compromised-checker.git
+cd mikro-compromised-checker
+python3 -m venv .venv
+source .venv/bin/activate    # macOS / Linux
+.venv\Scripts\activate       # Windows (PowerShell)
+pip install -r requirements.txt
